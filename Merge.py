@@ -8,8 +8,8 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 # -------------------------------
 # CONFIGURATION
 # -------------------------------
-INPUT_DIR = "G:\Sync\ForTomsSchool\Projects\AssetoCorsaMaps\DullesFull\modelLib"       # folder containing original .gltf/.glb
-OUTPUT_DIR = "G:\Sync\ForTomsSchool\Projects\AssetoCorsaMaps\DullesFull\modelLib\merged_outputs"  # folder for merged GLBs
+INPUT_DIR = "InputDIR"       # folder containing original .gltf/.glb
+OUTPUT_DIR = "OutPutDIR"  # folder for merged GLBs
 BATCH_SIZE = 300                # adjust for memory
 MAX_WORKERS = 4                # number of parallel processes
 
